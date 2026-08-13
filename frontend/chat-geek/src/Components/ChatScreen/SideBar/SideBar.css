@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+}
+
+svg {
+  height: 2rem;
+  width: 2rem;
+}
+
+.SideBar > div {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  background-color: #615ef0;
+  display: flex;
+  font-weight: bold;
+  font-size: 1.3125rem;
+  font-family: Asap;
+  color: white;
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0.76563rem 0rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.875rem;
+  cursor: default;
+}
+
+.SideBar > div > div > button {
+  border: none;
+  background-color: #ffffff00;
+  cursor: pointer;
+  padding: 0.3rem;
+}
+
+svg:hover {
+  color: #615ef0;
+}
+
+.createGroup > button > svg {
+  font-size: 1.3125rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.SideBar {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  box-shadow: 0 1px 1.5rem 1px #b8b8b8;
+  justify-content: space-between;
+}

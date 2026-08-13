@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.TopInfoPannel{
+    display: flex;
+    align-items: center;
+    width: 76.6875rem;
+    height: 4.94rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 0 1rem;
+}
+
+.infoSection{
+    text-align: left;
+    display: flex;
+    font-weight: bold;
+    gap: 1rem;
+}
+
+.infoSection > img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.infoSection > .name{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoSection > .name > .status{
+    font-size: .9rem;
+    margin-top: .2rem;
+}
+
+
+.callBtn{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    background-color: rgba(104, 102, 253, 0.27);
+    border-radius: .5rem;
+    color: #615EF0;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1.2rem 1rem;
+    cursor: pointer;
+}
+
+.callBtn:hover{
+    background-color: rgba(86, 83, 250, 0.15);
+}
+
+.callBtn > svg {
+    height: 1.5rem;
+}
